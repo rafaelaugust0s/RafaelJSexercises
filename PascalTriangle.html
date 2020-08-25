@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+<title> Pascal Triangle </title>
+
+<script>
+
+function PascalTriangle(TotalRows){
+
+var rows= TotalRows
+var space= rows
+var number= 1;
+
+for(i=0;i<rows;i++){
+
+  console.log(PascalTriangle(TotalRows, 4));
+
+
+  for (s=1;s<=spaces;s++){
+    document.write (" ");
+  }
+number=1;
+for(j=0;j<=i;j++){
+  document.write(number+" ")
+  number=number* (i-j)/(j+1);
+}
+
+space--;
+
+console.log(PascalTriangle(TotalRows,5));
+}
+
+
+}
+
+
+  </script>
+    </head>
+
+
+
+
+
+  <body>
+
+
+<h1> Pascal Triangle </h1>
+
+
+
+    </body>
+
+
+
+    </html>
